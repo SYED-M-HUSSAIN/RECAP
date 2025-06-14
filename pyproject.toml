@@ -1,0 +1,16 @@
+[project]
+name = "recap"
+version = "0.1.0"
+description = "AI Feedback Agents for Pitch Evaluation"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "langchain",
+    "langchain-google-genai",
+    "langgraph",
+    "python-dotenv",
+    "pydantic>=2.0"
+]
+
+[tool.uv]
+lockfile = "uv.lock"
